@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.m{
+    width: 100%;
+    height: 150px;
+    background-color:#263993;   
+}
+
+.m h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #EEEDED;
+}
+
+.i{
+    width: 200px;
+    height: 140px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.i a{
+    line-height: 140px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: flex;
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+    height: 830px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    transform: .5s;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.ci{
+    width: 750px;
+    height: 830px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 5%;
+    height: 830px;
+}
+
+.ci2{
+    margin-top: 10px;
+    width: 730px;
+    height: 250px;
+    background-color: #263993;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.ci3{
+    width: 290px;
+    height: 230px;
+    background-color: azure;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.ci3 img{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.ci4{
+    width: 410px;
+    height: 230px;
+    background-color: azure;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.ci5{
+    width: 410px;
+    height: 30px;
+    background-color: azure;
+}
+
+.ci4 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+
+.ci5 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.ci6{
+    width: 90%;
+    overflow: hidden;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.ci7{
+    margin-top: 10px;
+    width: 730px;
+    height: 250px;
+    float: left;
+    margin-left: 80px;
+    background-color: #263993;
+    border-radius: 15px;
+}

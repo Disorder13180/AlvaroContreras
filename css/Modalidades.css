@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.m{
+    width: 100%;
+    height: 150px;
+    background-color: #263993;   
+}
+
+.m h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.ec{
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border:  solid 2px black;
+}
+
+.te{
+    float: left;
+    margin-top: 125px;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ce{
+    width: 600px;
+    height: 280px;
+    margin-top: 10px;
+    background-color: none;
+    border-radius: 25px;
+    overflow: hidden;
+    float: left;
+    margin-left: 100px;
+    border: solid 2px black; 
+}
+
+.tce{
+    width: 600px;
+    height: 50px;
+    background-color: green;
+    border-bottom: 2px solid black;
+}
+
+.tce p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ce p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ce li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.i{
+    width: 200px;
+    height: 140px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.i a{
+    line-height: 140px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+.ct{
+    width: 800px;
+    height: 600px;
+    margin-top: 150px;
+    border: solid 1px black;
+}
+
+.tablita{
+    margin-top: 20px;
+    width: 1000px;
+    height: auto;
+    min-height: 500px;
+    text-align: center;
+}
+
+.tablita td{
+    border: solid 2px black;
+    text-align: center;
+}
